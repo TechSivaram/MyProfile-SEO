@@ -37,7 +37,7 @@ body {
     margin: 0;
     padding: 0;
     width: 20%;
-    background-color: #f5f8f9;
+    background-color: rgb(237, 243, 243);
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -49,8 +49,9 @@ div.content {
     padding-top: 40px;
     height: calc(100vh - 50px);
     overflow-y: auto;
-    width: 78%;
+    /* width: 78%; */
     text-align: justify;
+    background-color: rgb(237, 243, 243);
 }
 
 div.content p {
@@ -79,7 +80,7 @@ div.content p {
 
     div.content {
         padding-top: 0px;
-        width: 85%;
+        /* width: 85%; */
         height: unset;
         overflow: scroll;
     }
